@@ -1,0 +1,3 @@
+# scamDetector
+
+Detector of scams
