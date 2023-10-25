@@ -1,3 +1,3 @@
-# scamDetector
+# Scan Control
 
-Detector of scams
+Controller of scams

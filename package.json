@@ -1,7 +1,7 @@
 {
-  "name": "scamdetector",
+  "name": "scam-control",
   "version": "1.0.0",
-  "description": "Detector of scams",
+  "description": "Controller of scams",
   "scripts": {
     "test": "jest"
   },
