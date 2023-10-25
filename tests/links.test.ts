@@ -1,3 +1,4 @@
+import exp from 'constants'
 import { Checker, CheckApplyer } from '../src/checker'
 import { MaliciousSiteChecker, TopSiteMangleChecker } from '../src/links'
 
@@ -58,5 +59,10 @@ describe('Integration testing', () => {
   test('steamfree.com', () => {
     const maliciousSiteEntityMessage = 'Get free games on steamfree.com'
     expect(checker.apply(maliciousSiteEntityMessage)).toBeTruthy()
+  })
+
+  test('youtube.com', () => {
+    const safeWebsiteMessage = 'Buy Youtube Premium on https://www.youtube.com/premium'
+    expect(checker.apply(safeWebsiteMessage)).toBeFalsy()
   })
 })
