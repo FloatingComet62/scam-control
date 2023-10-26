@@ -1,4 +1,3 @@
-import exp from 'constants'
 import { Checker, CheckApplyer } from '../src/checker'
 import { MaliciousSiteChecker, TopSiteMangleChecker } from '../src/links'
 
